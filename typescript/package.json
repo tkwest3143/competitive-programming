@@ -1,0 +1,17 @@
+{
+  "name": "competitive-programming",
+  "version": "1.0.0",
+  "description": "TypeScript environment for competitive programming",
+  "scripts": {
+    "init": "./init.sh",
+    "build": "tsc",
+    "run": "./run.sh",
+    "dev": "ts-node",
+    "test": "ts-node"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
